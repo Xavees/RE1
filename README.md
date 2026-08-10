@@ -24,7 +24,7 @@ Por isso, deixei tudo organizado em uma pasta externa para facilitar o download.
 
 <div align="center">
 
-# ⬇️ [BAIXAR ARQUIVOS](COLOQUE_O_LINK_AQUI)
+# ⬇️ [BAIXAR ARQUIVOS](https://drive.google.com/drive/folders/1cj4E5MJoyUSm2_FpwbqVLrJ1UqT1s-6e?usp=drive_link)
 
 </div>
 
@@ -206,7 +206,7 @@ For this reason, everything has been organized in an external folder to make dow
 
 <div align="center">
 
-# ⬇️ [DOWNLOAD FILES](PUT_THE_LINK_HERE)
+# ⬇️ [DOWNLOAD FILES](https://drive.google.com/drive/folders/1cj4E5MJoyUSm2_FpwbqVLrJ1UqT1s-6e?usp=drive_link)
 
 </div>
 
