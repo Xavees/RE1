@@ -33,7 +33,7 @@ O objetivo é deixar tudo organizado em um único lugar para que você não prec
 
 <div align="center">
 
-<img src="./JILL/Jill-RE1.jpg" width="220">
+<img src="./JILL/Jill2.jpg" width="220">
 <img src="./JILL/JillRE1.jpg" width="220">
 
 </div>
@@ -222,7 +222,7 @@ Obviamente.
 
 <div align="center">
 
-<img src="./JILL/Jill2.jpg" width="280">
+<img src="./JILL/Jill-RE1.jpg" width="280">
 <img src="./JILL/JILL.jpg" width="280">
 
 ### 💙 Jill Valentine
@@ -252,7 +252,7 @@ The goal is to keep the entire process organized in one place.
 
 <div align="center">
 
-<img src="./JILL/Jill-RE1.jpg" width="220">
+<img src="./JILL/Jill2.jpg" width="220">
 <img src="./JILL/JillRE1.jpg" width="220">
 
 </div>
@@ -439,7 +439,7 @@ Obviously.
 
 <div align="center">
 
-<img src="./JILL/Jill2.jpg" width="280">
+<img src="./JILL/Jill-RE1.jpg" width="280">
 <img src="./JILL/JILL.jpg" width="280">
 
 ### 💙 Jill Valentine
