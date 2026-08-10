@@ -1,12 +1,14 @@
 <div align="center">
 
-# 🧟‍♀️ Resident Evil Classic — Android Guide
+# 🧟‍♀️ Resident Evil: Director's Cut — Android
 
-### Play the original Resident Evil on Android with DuckStation
+### Download • Installation • DuckStation Setup • Controller Guide
 
 <img src="./JILL/JillID.jpg" width="180">
 
-**🇧🇷 Português | 🇺🇸 English**
+### 🇧🇷 Guia em Português | 🇺🇸 English Guide
+
+Um guia simples para configurar **Resident Evil: Director's Cut** no Android utilizando DuckStation.
 
 </div>
 
@@ -14,11 +16,20 @@
 
 # 🇧🇷 Português
 
-## 🧟 Sobre o projeto
+## 🧟‍♀️ Sobre este repositório
 
-Este repositório foi criado para facilitar a configuração do **Resident Evil clássico no Android**, utilizando o emulador **DuckStation**.
+Este projeto foi criado para facilitar ao máximo o processo de configuração do **Resident Evil: Director's Cut no Android**.
 
-A ideia é deixar o processo o mais simples possível para quem quer jogar o primeiro Resident Evil no celular, especialmente utilizando um controle físico.
+Aqui você encontrará:
+
+- 📥 Uma seção dedicada aos **downloads utilizados pelo guia**
+- 🎮 Instruções para configurar o **DuckStation**
+- ⚙️ Instruções para configurar os arquivos necessários
+- 🎮 Configuração de controles Bluetooth/USB
+- 📱 Como remover os controles virtuais da tela
+- 💙 Algumas imagens da Jill porque sim
+
+O objetivo é deixar tudo organizado em um único lugar para que você não precise procurar cada etapa separadamente.
 
 <div align="center">
 
@@ -29,92 +40,106 @@ A ideia é deixar o processo o mais simples possível para quem quer jogar o pri
 
 ---
 
-## 💿 Qual versão do jogo?
+# 📥 DOWNLOADS
 
-Para simplificar e evitar confusão entre as diferentes versões do primeiro Resident Evil, este guia foi feito especificamente pensando em:
+## ☁️ Google Drive
 
-> ### Resident Evil: Director's Cut — USA 🇺🇸
+Os arquivos utilizados junto deste guia são grandes demais para serem armazenados diretamente neste repositório do GitHub.
 
-A versão utilizada é a **Director's Cut original**, e não a versão posterior:
+Por isso, existe uma pasta separada no **Google Drive** para os downloads disponibilizados pelo projeto.
 
-`Resident Evil: Director's Cut - Dual Shock Ver.`
+### ⬇️ DOWNLOAD
 
-A versão Dual Shock possui algumas diferenças em relação ao Director's Cut original, incluindo alterações na trilha sonora.
+## 📁 [ACESSAR PASTA DE DOWNLOADS](https://drive.google.com/drive/folders/1cj4E5MJoyUSm2_FpwbqVLrJ1UqT1s-6e?usp=drive_link)
 
-Para uma primeira jogada, minha recomendação é:
+> 💡 **Importante:** este guia foi organizado especificamente pensando na versão **Resident Evil: Director's Cut (USA)** original.
+>
+> Isso foi feito para evitar confusão com outras edições do jogo, principalmente **Resident Evil: Director's Cut - Dual Shock Ver.**
 
-### STANDARD + JILL VALENTINE 💙
+### ⚠️ Aviso
 
----
-
-## 📦 O que você precisa
-
-- 📱 Um dispositivo Android
-- 🎮 DuckStation
-- 💿 Resident Evil: Director's Cut (USA)
-- ⚙️ Uma BIOS compatível do PlayStation
-- 🎮 Controle Bluetooth/USB — opcional, mas altamente recomendado
-
-O DuckStation suporta formatos de imagem de disco como:
-
-```text
-.chd
-.cue + .bin
-.iso
-.img
-```
-
-> ⚠️ **Aviso:** ROMs comerciais e arquivos de BIOS protegidos por direitos autorais não são distribuídos por este repositório. Utilize arquivos obtidos legalmente.
+Verifique se você possui o direito de utilizar os arquivos disponibilizados ou referenciados pelo projeto em sua região.
 
 ---
 
-# ⚙️ Configuração
+# 💿 Versão utilizada
 
-## 1. Instale o DuckStation
-
-Instale o **DuckStation** no seu dispositivo Android.
-
-Abra o aplicativo e siga a configuração inicial.
-
----
-
-## 2. Configure a BIOS
-
-Ao tentar iniciar um jogo sem uma BIOS configurada, o DuckStation poderá exibir a mensagem:
-
-```text
-Missing BIOS Image
-```
-
-Selecione a opção para localizar/importar uma BIOS e escolha seu arquivo de BIOS compatível com PlayStation.
-
-Depois da importação, o DuckStation estará pronto para inicializar jogos.
-
----
-
-## 3. Adicione Resident Evil
-
-Na tela principal do DuckStation, selecione:
-
-```text
-Add Game Directory
-```
-
-Escolha a **pasta** onde está armazenada sua imagem do Resident Evil.
-
-Não é necessário selecionar diretamente o arquivo do jogo. O DuckStation irá procurar jogos compatíveis dentro da pasta escolhida.
-
-Se tudo estiver correto, o jogo deverá aparecer na biblioteca como:
+Todo o tutorial abaixo foi feito utilizando:
 
 ```text
 Resident Evil - Director's Cut (USA)
 ```
 
+### ❌ Não é:
+
+```text
+Resident Evil - Director's Cut - Dual Shock Ver. (USA)
+```
+
+Existem diversas versões do primeiro Resident Evil para PlayStation.
+
+Para deixar o processo mais simples, este guia utiliza somente a **Director's Cut original**.
+
 ---
 
-# 🎮 Configurando um controle físico
+# 🎮 Instalando o DuckStation
 
-Primeiro conecte seu controle ao Android através de **Bluetooth ou USB**.
+O **DuckStation** é o emulador utilizado neste guia.
+
+Depois de instalar o aplicativo no Android, abra-o e conclua a configuração inicial.
+
+---
+
+# ⚙️ Configurando a BIOS
+
+O DuckStation precisa de uma BIOS compatível do PlayStation para inicializar os jogos.
+
+Caso nenhuma BIOS esteja configurada, poderá aparecer:
+
+```text
+Missing BIOS Image
+```
+
+Selecione a opção para localizar/importar uma BIOS e indique o arquivo correspondente no seu dispositivo.
+
+Depois disso, o DuckStation estará pronto para iniciar jogos.
+
+---
+
+# 💿 Adicionando Resident Evil
+
+Na tela principal do DuckStation, toque em:
+
+```text
+Add Game Directory
+```
+
+O Android abrirá o seletor de arquivos.
+
+Selecione a **pasta onde está armazenado o jogo**.
+
+Você não precisa selecionar diretamente o arquivo individual.
+
+O DuckStation irá analisar a pasta e adicionar automaticamente os jogos encontrados.
+
+Se tudo estiver correto, deverá aparecer:
+
+```text
+Resident Evil - Director's Cut (USA)
+```
+
+na biblioteca.
+
+---
+
+# 🎮 Configurando um controle
+
+Este passo é opcional, mas é **altamente recomendado** para jogar Resident Evil no celular.
+
+Primeiro conecte seu controle ao Android através de:
+
+- Bluetooth
+- USB/OTG
 
 Depois abra:
 
@@ -124,7 +149,13 @@ Settings
     └── Port 1
 ```
 
-Em **Controller Type**, selecione:
+Em:
+
+```text
+Controller Type
+```
+
+selecione:
 
 ```text
 Analog Controller (DualShock)
@@ -136,13 +167,13 @@ Depois utilize:
 Perform Automatic Mapping
 ```
 
-O DuckStation tentará detectar e mapear automaticamente todos os botões e analógicos do controle conectado.
+O DuckStation deverá detectar seu controle e mapear automaticamente os botões.
 
 ---
 
-## 📱 Removendo os controles da tela
+# 📱 Removendo os botões da tela
 
-Se você estiver utilizando um controle físico, não precisa deixar os controles touchscreen ocupando a tela.
+Se estiver utilizando um controle físico, você pode remover completamente os controles touchscreen.
 
 Abra:
 
@@ -151,33 +182,41 @@ Controller Settings
 └── Touchscreen
 ```
 
-Em:
+Procure:
 
 ```text
 Touchscreen Controller View
 ```
 
-selecione:
+e selecione:
 
 ```text
 None
 ```
 
-Pronto! 🎮
+Pronto. 🎮
 
-Os botões virtuais desaparecerão e o jogo ficará com a tela limpa.
+Agora o Resident Evil ficará com a tela limpa e será controlado somente pelo controle físico.
 
 ---
 
-## 🧟 Começando o jogo
+# 🧟‍♀️ Começando o jogo
 
-No **Resident Evil: Director's Cut**, para uma primeira experiência, recomendo selecionar:
+Para quem nunca jogou o Resident Evil clássico antes, minha recomendação é:
 
-### STANDARD
+### 🎯 Dificuldade
 
-E escolher:
+```text
+STANDARD
+```
 
-### 💙 JILL VALENTINE
+### 💙 Personagem
+
+```text
+JILL VALENTINE
+```
+
+Obviamente.
 
 ---
 
@@ -186,7 +225,9 @@ E escolher:
 <img src="./JILL/Jill2.jpg" width="280">
 <img src="./JILL/JILL.jpg" width="280">
 
-### Jill Valentine 💙
+### 💙 Jill Valentine
+
+**1996 → RE3 Remake**
 
 </div>
 
@@ -194,11 +235,20 @@ E escolher:
 
 # 🇺🇸 English
 
-## 🧟 About this project
+## 🧟‍♀️ About this repository
 
-This repository was created to make it easier to configure and play the **classic Resident Evil on Android using DuckStation**.
+This project was created to make the process of setting up **Resident Evil: Director's Cut on Android** as simple as possible.
 
-The goal is to make the setup process as simple as possible for anyone interested in experiencing the original Resident Evil on a mobile device, especially with a physical controller.
+Here you will find:
+
+- 📥 A dedicated **download section**
+- 🎮 DuckStation setup instructions
+- ⚙️ Instructions for configuring the required files
+- 🎮 Bluetooth/USB controller configuration
+- 📱 Instructions for disabling touchscreen controls
+- 💙 Some Jill pictures because why not
+
+The goal is to keep the entire process organized in one place.
 
 <div align="center">
 
@@ -209,72 +259,73 @@ The goal is to make the setup process as simple as possible for anyone intereste
 
 ---
 
-## 💿 Which version?
+# 📥 DOWNLOADS
 
-To keep things simple and avoid confusion between the different releases of the original Resident Evil, this guide specifically focuses on:
+## ☁️ Google Drive
 
-> ### Resident Evil: Director's Cut — USA 🇺🇸
+Some files used alongside this guide are too large to be stored directly in this GitHub repository.
 
-This is the **original Director's Cut release**, not the later:
+For this reason, a separate **Google Drive folder** is available for the downloads provided with this project.
 
-`Resident Evil: Director's Cut - Dual Shock Ver.`
+### ⬇️ DOWNLOAD
 
-The Dual Shock release contains some differences compared to the original Director's Cut, including soundtrack changes.
+## 📁 [OPEN DOWNLOAD FOLDER](https://drive.google.com/drive/folders/1cj4E5MJoyUSm2_FpwbqVLrJ1UqT1s-6e?usp=drive_link)
 
-For a first playthrough, my recommendation is:
+> 💡 **Important:** This guide was specifically organized around the original **Resident Evil: Director's Cut (USA)** release.
+>
+> This avoids confusion with other releases, especially **Resident Evil: Director's Cut - Dual Shock Ver.**
 
-### STANDARD + JILL VALENTINE 💙
+### ⚠️ Notice
+
+Make sure you have the legal right to use any files provided or referenced by this project in your region.
 
 ---
 
-## 📦 Requirements
+# 💿 Version used
 
-You will need:
-
-- 📱 Android device
-- 🎮 DuckStation
-- 💿 Resident Evil: Director's Cut (USA)
-- ⚙️ Compatible PlayStation BIOS
-- 🎮 Bluetooth/USB controller — optional, but highly recommended
-
-DuckStation supports disc-image formats such as:
+The entire tutorial below is based on:
 
 ```text
-.chd
-.cue + .bin
-.iso
-.img
+Resident Evil - Director's Cut (USA)
 ```
 
-> ⚠️ **Notice:** Commercial ROMs and copyrighted PlayStation BIOS files are not distributed through this repository. Please use legally obtained files.
+### ❌ Not:
+
+```text
+Resident Evil - Director's Cut - Dual Shock Ver. (USA)
+```
+
+Several versions of the original Resident Evil were released for PlayStation.
+
+To keep everything simple, this guide focuses exclusively on the **original Director's Cut**.
 
 ---
 
-# ⚙️ Setup
+# 🎮 Installing DuckStation
 
-## 1. Install DuckStation
+**DuckStation** is the emulator used by this guide.
 
-Install **DuckStation** on your Android device.
-
-Open the application and complete the initial setup.
+Install DuckStation on your Android device and complete the initial setup.
 
 ---
 
-## 2. Configure the BIOS
+# ⚙️ BIOS Setup
 
-If you attempt to start a game without a configured BIOS, DuckStation may display:
+DuckStation requires a compatible PlayStation BIOS to boot games.
+
+If no BIOS has been configured, you may see:
 
 ```text
 Missing BIOS Image
 ```
 
-Select the option to locate/import a BIOS and choose your compatible PlayStation BIOS file.
+Choose the option to locate/import a BIOS and select the corresponding file on your device.
 
-Once imported, DuckStation will be ready to boot PlayStation games.
+After importing it, DuckStation should be ready to boot PlayStation games.
 
 ---
 
-## 3. Add Resident Evil
+# 💿 Adding Resident Evil
 
 From DuckStation's main screen, select:
 
@@ -282,11 +333,15 @@ From DuckStation's main screen, select:
 Add Game Directory
 ```
 
-Choose the **folder** containing your Resident Evil disc image.
+Android will open its file picker.
 
-You don't need to select the game file directly. DuckStation will scan the selected directory for supported games.
+Select the **folder containing the game**.
 
-If everything is configured correctly, the game should appear in your library as:
+You don't need to manually select the individual game file.
+
+DuckStation will scan the directory and automatically add supported games to your library.
+
+If everything is configured correctly, you should see:
 
 ```text
 Resident Evil - Director's Cut (USA)
@@ -294,9 +349,14 @@ Resident Evil - Director's Cut (USA)
 
 ---
 
-# 🎮 Physical Controller Setup
+# 🎮 Controller Setup
 
-First connect your controller to Android through **Bluetooth or USB**.
+Using a physical controller is optional, but **highly recommended**.
+
+Connect your controller to Android through:
+
+- Bluetooth
+- USB/OTG
 
 Then open:
 
@@ -306,7 +366,13 @@ Settings
     └── Port 1
 ```
 
-Under **Controller Type**, select:
+Under:
+
+```text
+Controller Type
+```
+
+select:
 
 ```text
 Analog Controller (DualShock)
@@ -318,13 +384,13 @@ Then choose:
 Perform Automatic Mapping
 ```
 
-DuckStation should automatically detect and map the buttons and analog sticks of your connected controller.
+DuckStation should automatically detect and map your controller.
 
 ---
 
-## 📱 Disable Touch Controls
+# 📱 Disable Touchscreen Controls
 
-If you're using a physical controller, you don't need the touchscreen controls covering the game.
+If you're using a physical controller, the touchscreen controls can be completely disabled.
 
 Open:
 
@@ -333,33 +399,41 @@ Controller Settings
 └── Touchscreen
 ```
 
-Under:
+Find:
 
 ```text
 Touchscreen Controller View
 ```
 
-select:
+and select:
 
 ```text
 None
 ```
 
-Done! 🎮
+Done. 🎮
 
-The virtual controls will disappear, leaving you with a clean game screen.
+You'll now have a clean game screen without virtual buttons.
 
 ---
 
-## 🧟 Starting the Game
+# 🧟‍♀️ Starting the Game
 
-For your first **Resident Evil: Director's Cut** playthrough, I recommend:
+For your first classic Resident Evil playthrough, I recommend:
 
-### STANDARD
+### 🎯 Difficulty
 
-And choose:
+```text
+STANDARD
+```
 
-### 💙 JILL VALENTINE
+### 💙 Character
+
+```text
+JILL VALENTINE
+```
+
+Obviously.
 
 ---
 
@@ -368,29 +442,31 @@ And choose:
 <img src="./JILL/Jill2.jpg" width="280">
 <img src="./JILL/JILL.jpg" width="280">
 
-### Jill Valentine 💙
+### 💙 Jill Valentine
+
+**1996 → RE3 Remake**
 
 </div>
 
 ---
 
-# ⚖️ Legal Notice
+# ⚖️ Disclaimer
 
-**Resident Evil** and **Jill Valentine** are properties of **CAPCOM**.
+This is an unofficial, fan-made project.
 
-**DuckStation** is an independent PlayStation emulator and is not affiliated with this repository.
+**Resident Evil**, **Jill Valentine**, PlayStation and all related trademarks belong to their respective owners.
 
-This repository is a **fan-made setup guide** intended to help users configure the original Resident Evil on Android.
+This project is not affiliated with or endorsed by **CAPCOM**, Sony or the DuckStation developers.
 
-No commercial Resident Evil ROMs or copyrighted PlayStation BIOS files are distributed by this repository.
+Users are responsible for ensuring they have the legal right to use any files provided, downloaded or referenced by this project.
 
 ---
 
 <div align="center">
 
-### ⭐ S.T.A.R.S. ⭐
+# ⭐ S.T.A.R.S. ⭐
 
-**Made by a Resident Evil fan, for Resident Evil fans.**
+### Made by a Resident Evil fan, for Resident Evil fans.
 
 <img src="./JILL/JillID.jpg" width="120">
 
