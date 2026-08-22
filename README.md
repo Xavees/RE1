@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧟‍♀️ Resident Evil: Director's Cut — Android
+# 🧟‍♀️ Resident Evil: Director's Cut  Android
 
 ### 📥 Download • 🎮 DuckStation • ⚙️ Setup • 🕹️ Controller
 
